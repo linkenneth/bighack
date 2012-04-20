@@ -1,6 +1,49 @@
-The big hack project
+=======================================================
+ThunderAnt - An Artistic Interpretation of Algorithms
+=======================================================
+
+About:
+-------------------------------------------------------
+
+ThunderAnt is a small project our team did for the Cal vs. Stanford
+"Big Hack" Hack-a-thon. The idea is simple: there's an ant on grid,
+and the ant knows math. Specifically, the ant knows what a prime
+number is, and while counting through all the integers, every time it
+sees a prime number, it'll turn left. Otherwise, it'll walk straight.
+This seems like a pretty simple concept, but the patterns that result
+end up very artistically appealing and strange.
+
+Currently, ThunderAnt only knows prime numbers, but the way our
+program is set up it can easily learn any sort of algorithm (think
+Fibonnaci, random integers, multiples of stuff, or cool things like
+counting in more than one sequence at a time - that is, comparing
+numbers or datasets).
+
+Similarly, the output can be easily changed as well. During the
+hackathon we actually wrote two versions, one for a GUI in Python and
+another for PNG image output.
+
+
+Setup:
+-------------------------------------------------------
+
+It is necessary to obtain the libpng and libpari dependencies before
+making the package. Unfortunately we're not so sure how to precompile
+stuff in C yet so you would need to separately get the libpng and
+libpari libraries and then make it.
+
+If you somehow succeed in making it, you can run stuff like this:
 
 Sample configurations
     million primes (1e6)
     bh -4640 1380 121 -545
         x1   y1   x2   y2
+
+Sample output for this configuration is attached.
+
+
+Credits:
+-------------------------------------------------------
+
+Kelvin Li  |  Kenneth Lin  |  Michael Lin
+
